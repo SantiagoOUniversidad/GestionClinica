@@ -3,6 +3,7 @@ import java.util.List;
 import lombok.*;
 
 @AllArgsConstructor
+@Getter
 
 public class Clinica {
     private List<Cita> citas;
